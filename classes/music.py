@@ -41,6 +41,3 @@ class Music:
         sec = int(x - (min * 60))
         return f'{min}:{sec}'
 
-
-test = Music('../music/test.mp3')
-test.save_cover('./../cover')
